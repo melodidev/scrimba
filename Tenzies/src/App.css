@@ -1,0 +1,28 @@
+body {
+  background-color: #0B2434;
+  color: #2B283A
+}
+
+main {
+  background-color: #F5F5F5;
+  max-width: 500px;
+}
+
+.content {
+  color: #4A4E74;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+}
+
+.border-none {
+  border: none;
+}
+
+.bg-purple {
+  background-color: #5035FF;;
+}

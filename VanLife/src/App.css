@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --bg-primary: #fff7ed;
+  --bg-footer: #252525;
+  --color-footer: #AAAAAA;
+  --bg-salmon: #ffcb8d;
+  --bg-btn: #ff8c39;
+  --color-star: #ff8c38;
+  --bg-filter: #FFEAD0;
+  --bg-simple: #E17654;
+  --bg-rugged: #115E59;
+  --text-grey: #4D4D4D;
+  --bg-dark: #212529;
+  --bg-light-yellow: #FFEAD0;
+  --bg-yellow: #FFDDB2;
+}
+
+body {
+  background-color: var(--bg-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+.filter {
+  filter: brightness(60%);
+}
+
+.width-120 {
+  width: 120px;
+  height: auto;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.width-60 {
+  width: 60px;
+}
+
+.fs-sm {
+  font-size: 14px;
+}
+
+.fs-xs {
+  font-size: 11px;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.text-underline-hover {
+  text-decoration: none;
+}
+
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.bg-btn {
+  background-color: var(--bg-btn);
+}
+
+.bg-salmon {
+  background-color: var(--bg-salmon);
+}
+
+.bg-footer {
+  background-color: var(--bg-footer);
+}
+
+.color-footer {
+  color: var(--color-footer);
+}
+
+.text-grey {
+  color: var(--text-grey);
+}
+
+.bg-filter {
+  background-color: var(--bg-filter);
+}
+
+.bg-simple {
+  background-color: var(--bg-simple);
+}
+
+.bg-rugged {
+  background-color: var(--bg-rugged);
+}
+
+.bg-light-yellow {
+  background-color: var(--bg-light-yellow);
+}
+
+.bg-yellow {
+  background-color: var(--bg-yellow);
+}
+
+.color-star {
+  color: var(--color-star);
+}
+
+.bg-simple-hover:hover,
+.bg-simple-hover.selected {
+  background-color: var(--bg-simple);
+  color: white;
+}
+
+.bg-rugged-hover:hover,
+.bg-rugged-hover.selected {
+  background-color: var(--bg-rugged);
+  color: white;
+}
+
+.bg-dark-hover:hover,
+.bg-dark-hover.selected {
+  background-color: var(--bg-dark);
+  color: white;
+}

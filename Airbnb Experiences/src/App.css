@@ -1,0 +1,38 @@
+:root {
+  --red: #FF5A5F;
+  --grey: #918E9B;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-img {
+  max-height: 400px;
+}
+
+.star {
+  max-height: 16px;
+}
+
+.cards img {
+  max-height: 350px;
+}
+
+/* Utility Classes */
+.bg-white {
+  background-color: white;
+}
+
+.text-red,
+.text-red:hover {
+  color: var(--red);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+.fs-sm {
+  font-size: 14px;
+}

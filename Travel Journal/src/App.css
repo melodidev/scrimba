@@ -1,0 +1,30 @@
+:root {
+  --red: #f55a5a;
+  --grey: #918e9b;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+/* Utility Classes */
+.letter-spacing-sm {
+  letter-spacing: 0.2ch;
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+.text-red-hover:hover {
+  color: var(--red);
+}
